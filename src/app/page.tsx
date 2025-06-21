@@ -25,9 +25,6 @@ export default function Home() {
       </div>
       <button className="absolute z-10 lg:top-[560px] top-[400px] left-1/2 transform -translate-x-1/2 z-10">
         <Register/>
-        <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out">
-          <img src="/assets/butterflies.png" className="w-full h-full object-cover" alt="Animated"/>
-        </div>
       </button>
 
       <div className="relative z-1 mt-[250px] w-full">
@@ -77,7 +74,7 @@ export default function Home() {
         <Image src="/assets/staircase.png" alt="stairs" width={225} height={225} className="block lg:hidden w-full h-full object-left object-cover" />
       </div>
       <div className="absolute z-10 w-full h-auto lg:top-[1050px] top-[700px]">
-          <Image src="/assets/paper-2.png" alt="paper" height={100} width={1909} className="scale-x-[-1] object-cover z-10 rotate-[357deg] brightness-0 invert scale-[1.5]"/>
+          <Image src="/assets/paper-2.png" alt="paper" height={100} width={1909} className="scale-x-[-1] object-cover z-10 rotate-[357deg] brightness-0 invert scale-[1.8]"/>
       </div>     
       </div>
 
@@ -202,7 +199,7 @@ export default function Home() {
       <div className="absolute z-10 w-full h-auto lg:top-[500px] top-[180px]">
         <Image src="/assets/Frame 1597884565.png" alt="workshop" height={62} width={1256} className="lg:scale-[1] scale-[2]"/>
       </div>
-      <div className="absolute flex lg:flex-row lg:flex-wrap flex-col overflow-y-auto z-10 w-full lg:top-[700px] top-[240px] lg:pl-[100px] lg:pr-[50px] lg:gap-y-[5px] gap-x-[5px]">
+      <div className="absolute flex lg:flex-row lg:flex-wrap flex-col overflow-y-auto z-10 w-full lg:top-[700px] top-[240px] pl-[50px] lg:pl-[100px] lg:pr-[50px] lg:gap-y-[5px] gap-x-[5px]">
         <Image src="/assets/workshop1.png" alt="workshops" height={431} width={334}/>
         <Image src="/assets/workshop1.png" alt="workshops" height={431} width={334}/>
         <Image src="/assets/workshop1.png" alt="workshops" height={431} width={334}/>
@@ -220,7 +217,7 @@ export default function Home() {
       <div className="lg:hidden absolute z-4 left-[190px] top-[1460px]">
         <Image src="/assets/radio.png" alt="radio" height={109} width={109} className="z-4"/>
       </div>
-      <div className="absolute lg:left-[900px] lg:top-[1050px] top-[1405px] lg:w-[390px] lg:h-[300px] h-[200px] w-[410px] overflow-hidden">
+      <div className="absolute lg:left-[900px] right-0 lg:top-[1050px] top-[1405px] lg:w-[390px] lg:h-[300px] h-[200px] w-[410px] overflow-hidden">
         <Image src="/assets/sideone.png" alt="sideone" height={544} width={544} className="z-0 scale-x-[-1]"/>
       </div>
       </div>
