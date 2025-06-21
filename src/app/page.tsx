@@ -7,7 +7,7 @@ import { Register } from "./components/Hero/Register";
 
 export default function Home() {
   return (
-    <div className="w-full">
+    <div className="w-full overflow-x-hidden">
       <div className="relative w-full h-[232px]">
       <Image src="/assets/Mask group.png" alt="background" width={4000.16} height={232.13} className="object-cover z-0 scale-[5.5] lg:scale-[1]" />
       <div className="absolute w-full top-0 left-0 z-10 pt-[48px] flex justify-center">
@@ -241,7 +241,7 @@ export default function Home() {
       <div>
         <div className="relative flex flex-col gap-y-10 mt-[2000px] lg:pl-[93px] lg:pr-[93px] pl-[10px]">
           <div className="relative lg:w-[1000px] lg:h-[520px] w-[400px] h-[520px] rounded-md" style={{ backgroundColor: '#ED6F2E' }}>
-            <div className="relative transition-transform duration-300 ease-in-out hover:scale-105">
+            <div className="hidden lg:block relative transition-transform duration-300 ease-in-out hover:scale-105">
             <div className="absolute z-6 right-0 h-[520px] w-[440px] top-0 overflow-hidden ">
               <Image src="/assets/phone frame.png" alt="phoneframe" height={415} width={610}  className="scale-[0.8]"/>
             </div>
@@ -267,7 +267,7 @@ export default function Home() {
             <div className="absolute top-[30px] left-[30px]">
               <Image src="/assets/pin.png" alt="pin" height={32} width={32} className="scale-[1.5]"/>
             </div>
-            <div className="absolute z-5 right-0 h-[173px] w-[638px] left-[40px] top-[150px] overflow-hidden ">
+            <div className="hidden lg:block absolute z-5 right-0 h-[173px] w-[638px] left-[40px] top-[150px] overflow-hidden ">
               <Image src="/assets/zenigma.png" alt="zenigma" height={178} width={638}  className="scale-[0.8]"/>
             </div>
             <button className="absolute z-5 right-0 left-[100px] top-[380px]">
@@ -276,7 +276,7 @@ export default function Home() {
 
           </div>
           <div className="relative lg:w-[1000px] lg:h-[520px] w-[400px] h-[520px] rounded-md" style={{ backgroundColor: '#E84489' }}>
-            <div className="relative transition-transform duration-300 ease-in-out hover:scale-105">
+            <div className=" hidden lg:block relative transition-transform duration-300 ease-in-out hover:scale-105">
               <div className="absolute right-[20px] top-[215px] ">
                 <Image src="/assets/burgerking.png" alt="brands" height={449} width={117} className="scale-[1.3]"/>
               </div>
@@ -296,7 +296,7 @@ export default function Home() {
             <div className="absolute top-[30px] left-[30px]">
               <Image src="/assets/pin.png" alt="pin" height={32} width={32} className="scale-[1.5]"/>
             </div>
-            <div className="absolute z-5 right-0 h-[173px] w-[638px] left-[40px] top-[150px] overflow-hidden ">
+            <div className="hidden lg:block absolute z-5 right-0 h-[173px] w-[638px] left-[40px] top-[150px] overflow-hidden ">
               <Image src="/assets/brandstorm.png" alt="zenigma" height={178} width={638}  className="scale-[0.8]"/>
             </div>
             <button className="absolute z-5 right-0 left-[100px] top-[380px]">
@@ -362,7 +362,7 @@ export default function Home() {
         <Image src="/assets/person2.png" alt="man" height={829} width={623} className="scale-[1.5]"/>
       </div>
       </div>
-      <div className="relative z-10 mt-[900px] pl-[400px] w-full">
+      <div className="hidden lg:block relative z-10 mt-[900px] pl-[400px] w-full">
         <Image src="/assets/partners.png" alt="partners" height={40} width={400} className="scale-[0.8]"/>
         <div className="absolute top-[200px] overflow-hidden whitespace-nowrap">
           <div className="flex animate-scroll gap-4">
