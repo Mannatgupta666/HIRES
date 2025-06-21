@@ -51,15 +51,15 @@ export default function Home() {
       <div className="absolute z-5 top-0 left-0 h-[300px] w-[150px] lg:hidden overflow-hidden">
         <Image src="/assets/flower.png" alt="background" width={268} height={310} className="w-full h-full object-cover object-right object-bottom " />
       </div>
-      <div className="absolute z-0 w-full lg:top-[220px] top-[280px] h-[1021] w-[375px] overflow-hidden">
-        <Image src="/assets/background-2.jpg" alt="background" width={1441} height={1021} className="object-cover z-0 rotate-[180deg] opacity-75 scale-[2.6] lg:scale-[1]" />
+      <div className="absolute z-0 w-full lg:top-[220px] top-[300px] h-[1021] w-[375px] overflow-hidden">
+        <Image src="/assets/background-2.jpg" alt="background" width={1441} height={1021} className="object-cover z-0 rotate-[180deg] opacity-75 scale-[2.8] lg:scale-[1]" />
       </div>
 
-      <div className="absolute z-10 lg:top-[500px] top-[370px] lg:pl-[330px]">
+      <div className="absolute z-10 lg:top-[500px] top-[450px] lg:pl-[330px]">
         <Image src="/assets/Frame 1597884573.png" alt="unite" width={615} height={491} className="object-contain brightness-70 invert saturate-100 scale-[0.8] lg:scale-[0.8]" />
       </div>
-      <div className="absolute z-10 lg:top-[390px] top-[280px] lg:left-[330px] left-[120px] lg:pl-[330px]">
-        <Image src="/assets/butterflies.png" alt="unite" width={249} height={249} className="object-contain scale-[0.4] lg:scale-[0.9]" />
+      <div className="absolute z-10 lg:top-[390px] top-[350px] lg:left-[330px] left-[160px] lg:pl-[330px]">
+        <Image src="/assets/butterflies.png" alt="butterflies" width={249} height={249} className="object-contain scale-[0.4] lg:scale-[0.9]" />
       </div>
       <div className="absolute z-5 top-[750px] right-0 w-[400px] h-[649px] overflow-hidden">
         <Image src="/assets/staircase.png" alt="stairs" width={649} height={649} className=" hidden lg:block w-full h-full object-left object-cover" />
@@ -67,18 +67,18 @@ export default function Home() {
       <div className="absolute z-5 top-[750px] left-0 w-[400px] h-[649px] overflow-hidden">
         <Image src="/assets/staircase.png" alt="stairs" width={649} height={649} className="hidden lg:block scale-x-[-1] w-full h-full object-left object-cover" />
       </div>
-      <div className="absolute z-5 top-[600px] left-0 w-[160px] h-[225px] overflow-hidden">
+      <div className="absolute z-5 top-[700px] left-0 w-[160px] h-[225px] overflow-hidden">
         <Image src="/assets/staircase.png" alt="stairs" width={225} height={225} className="block lg:hidden scale-x-[-1] w-full h-full object-left object-cover" />
       </div>
-      <div className="absolute z-5 top-[600px] right-0 w-[160px] h-[225px] overflow-hidden">
+      <div className="absolute z-5 top-[700px] right-0 w-[160px] h-[225px] overflow-hidden">
         <Image src="/assets/staircase.png" alt="stairs" width={225} height={225} className="block lg:hidden w-full h-full object-left object-cover" />
       </div>
-      <div className="absolute z-10 w-full h-auto lg:top-[1050px] top-[700px]">
+      <div className="absolute z-10 w-full h-auto lg:top-[1050px] top-[850px]">
           <Image src="/assets/paper-2.png" alt="paper" height={100} width={1909} className="scale-x-[-1] object-cover z-10 rotate-[357deg] brightness-0 invert scale-[1.8]"/>
       </div>     
       </div>
 
-      <div className="relative z-10 lg:mt-[900px] mt-[700px] w-full flex flex-col items-center lg:gap-y-[100px] gap-y-[30px]">
+      <div className="relative z-10 lg:mt-[900px] mt-[750px] w-full flex flex-col items-center lg:gap-y-[100px] gap-y-[30px]">
   <Image src="/assets/Frame 1597884636.png" alt="voice that matters" height={135} width={1256}/>
 
   <div className="lg:mt-[50px] mt-0 max-w-[1116px] mx-auto w-full">
@@ -217,14 +217,14 @@ export default function Home() {
       <div className="lg:hidden absolute z-4 left-[190px] top-[1460px]">
         <Image src="/assets/radio.png" alt="radio" height={109} width={109} className="z-4"/>
       </div>
-      <div className="absolute lg:left-[900px] right-0 lg:top-[1050px] top-[1405px] lg:w-[390px] lg:h-[300px] h-[200px] w-[410px] overflow-hidden">
+      <div className="absolute lg:left-[900px] left-[100px] lg:top-[1050px] top-[1405px] lg:w-[390px] lg:h-[300px] h-[200px] w-[410px] overflow-hidden">
         <Image src="/assets/sideone.png" alt="sideone" height={544} width={544} className="z-0 scale-x-[-1]"/>
       </div>
       </div>
 
 
       <div className="relative z-5 mt-[1100px] w-full h-auto">
-        <div className="absolute z-5 lg:top-0 top-[400px] lg:w-[550px] lg:right-[700px]  right-[130px] lg:h-[644px] overflow-hidden">
+        <div className="absolute z-5 lg:top-0 top-[380px] lg:w-[550px] lg:right-[700px]  right-[130px] lg:h-[644px] overflow-hidden">
           <Image src="/assets/hands.png" alt="hands" width={901} height={135} className="rotate-[69deg] z-5 lg:scale-[1.5] object-right scale-[1.5]" />
         </div>
         <div className="absolute z-0 lg:top-[150px] top-[400px] lg:left-[330px]">
@@ -239,8 +239,8 @@ export default function Home() {
       </div>
 
       <div>
-        <div className="relative flex flex-col gap-y-10 mt-[2000px] pl-[93px] pr-[93px] ">
-          <div className="relative w-[1000px] h-[520px] rounded-md" style={{ backgroundColor: '#ED6F2E' }}>
+        <div className="relative flex flex-col gap-y-10 mt-[2000px] lg:pl-[93px] lg:pr-[93px] pl-[10px]">
+          <div className="relative lg:w-[1000px] lg:h-[520px] w-[400px] h-[520px] rounded-md" style={{ backgroundColor: '#ED6F2E' }}>
             <div className="relative transition-transform duration-300 ease-in-out hover:scale-105">
             <div className="absolute z-6 right-0 h-[520px] w-[440px] top-0 overflow-hidden ">
               <Image src="/assets/phone frame.png" alt="phoneframe" height={415} width={610}  className="scale-[0.8]"/>
@@ -275,7 +275,7 @@ export default function Home() {
             </button>
 
           </div>
-          <div className="relative w-[1000px] h-[520px] rounded-md" style={{ backgroundColor: '#E84489' }}>
+          <div className="relative lg:w-[1000px] lg:h-[520px] w-[400px] h-[520px] rounded-md" style={{ backgroundColor: '#E84489' }}>
             <div className="relative transition-transform duration-300 ease-in-out hover:scale-105">
               <div className="absolute right-[20px] top-[215px] ">
                 <Image src="/assets/burgerking.png" alt="brands" height={449} width={117} className="scale-[1.3]"/>
