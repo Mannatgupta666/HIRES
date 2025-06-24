@@ -3,6 +3,9 @@ module.exports = {
   content: ['./app/**/*.{js,ts,jsx,tsx}', './pages/**/*.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
+      fontFamily: {
+        'causten-light': ['causten-Light', 'sans-serif'],
+      },
       keyframes: {
         pop: {
           '0%': { transform: 'scale(0.8)', opacity: '0' },

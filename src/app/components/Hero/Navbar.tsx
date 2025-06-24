@@ -13,9 +13,9 @@ const navlinks=[
 
 export function Navbar(){
     return(
-        <nav className="flex w-full items-center justify-between px=[0px]">
+        <nav className="flex w-full items-center justify-between h-fit">
             <div className="flex item-center">
-                <Image src="/assets/E-Summit'25 Logo.png" alt="Logo" width={172.35} height={48}  />
+                <Image src="/assets/E-Summit'25 Logo.png" alt="Logo" width={172.35} height={48}/>
             </div>
             <div className="hidden w-fit lg:flex flex-1 justify-center gap-x-[24px] mx-auto flex-none">
                     {navlinks.map((item,index)=>(

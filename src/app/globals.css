@@ -1,1 +1,7 @@
 @import "tailwindcss";
+@font-face {
+  font-family: 'Causten-Light';
+  src: url('/fonts/causten-light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
