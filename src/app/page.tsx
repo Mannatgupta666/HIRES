@@ -12,6 +12,8 @@ import { Zenigma } from "./components/Events/Zenigma";
 import { Brandstorm } from "./components/Events/brandstorm";
 import { Merch } from "./components/Merchsection/merch";
 import { Merchitems } from "./components/Merchsection/merchitems";
+import { Ready } from "./components/readysection/ready";
+import { Contact } from "./components/contactsection/contact";
 
 export default function Home() {
   return (
@@ -88,7 +90,7 @@ export default function Home() {
         <Brandstorm/>
        </div>
       </div>
-      <div className="relative w-full min-h-screen" style={{backgroundImage:"url('/assets/bgspeaker.png')", backgroundSize:'cover', backgroundPosition:'top', backgroundRepeat:'no-repeat'}}>
+      <div className="relative w-full min-h-[200vh]" style={{backgroundImage:"url('/assets/bgspeaker.png')", backgroundSize:'cover', backgroundPosition:'top', backgroundRepeat:'no-repeat'}}>
        <div className="absolute w-full lg:h-[200vh] md:h-[100vh] h-[100vh]"style={{backgroundImage:"url('/assets/merchbg.png')", backgroundSize:'cover', backgroundPosition:'top', backgroundRepeat:'no-repeat'}}>
       <div className="relative z-20 mx-auto max-w-3xl px-4 md:max-w-4xl lg:max-w-6xl">
       <div className="relative translate-y-1/4 py-4 sm:mt-20 sm:py-6 md:mt-0 lg:mt-10 lg:py-4">
@@ -101,22 +103,16 @@ export default function Home() {
        </div>
       </div>
 
-      
-      <div className="hidden lg:block relative z-10 mt-[900px] pl-[400px] w-full">
-        <Image src="/assets/partners.png" alt="partners" height={40} width={400} className="scale-[0.8]"/>
-        <div className="absolute top-[200px] overflow-hidden whitespace-nowrap">
-          <div className="flex animate-scroll gap-4">
-            <img src="/assets/fampay.png" className="w-[288px] h-[131px] object-contain" />
-            <img src="/assets/sun.png" className="w-[65px] h-[65px] object-contain" />
-            <img src="/assets/DOD.png" className="w-[288px] h-[131px] object-contain" />
-            <img src="/assets/Vector.png" className="w-[65px] h-[65px] object-contain" />
-            <img src="/assets/fampay.png" className="w-[288px] h-[131px] object-contain" />
-            <img src="/assets/sun.png" className="w-[65px] h-[65px] object-contain" />
-            <img src="/assets/DOD.png" className="w-[288px] h-[131px] object-contain" />
-            <img src="/assets/Vector.png" className="w-[65px] h-[65px] object-contain" />
-            
-          </div>
+      <div className="relative flex min-h-screen w-full flex-col items-center justify-center  bg-[url('/assets/readybgmob.png')] bg-cover bg-center bg-no-repeat md:bg-[url('/assets/readybg.png')]">
+      <Ready/>
+
+      </div>
+      <div className="bg-[#13110f] p-6 font-public-sans">
+        <div className="w-full rounded-lg bg-gradient-to-l from-gray-800 via-gray-900 to-black p-6 text-white">
+          <Contact/>
+
         </div>
+
       </div>
 
     </div>

@@ -1,4 +1,4 @@
-import Image from "next/image"
+
 export function Zenigma(){
     return(
         <div className="relative flex flex-col bg-orange-500 w-full md:h-[400px] sm:h-[300px] h-[400px] rounded-xl ">
