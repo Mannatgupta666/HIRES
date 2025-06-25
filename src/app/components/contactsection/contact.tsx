@@ -12,7 +12,7 @@ export function Contact(){
                     </div>
                 </div>
                 <div className="mt-8 hidden max-w-[509px] text-center text-base leading-6 text-[#CBC8C8] sm:block md:mt-8 md:text-left">
-                    <p className="text-left font-normal leading-[24px]">E-Summit IIT Roorkee is North India's largest entrepreneurial fest, organized by the Entrepreneurship Cell to inspire and empower future leaders.</p>
+                    <p className="text-left font-normal leading-[24px]">E-Summit IIT Roorkee is North India&rsquo;s largest entrepreneurial fest, organized by the Entrepreneurship Cell to inspire and empower future leaders.</p>
                 </div>
                 </div>
                 <div className="hidden w-full justify-between space-y-8 sm:flex md:ml-10 md:w-1/2 md:flex-row md:space-y-0">
