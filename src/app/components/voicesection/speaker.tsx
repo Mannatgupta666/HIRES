@@ -15,7 +15,7 @@ export function Speaker(){
                     <h3 className=" lg:tracking-[2px] font-newake text-lg font-bold tracking-wide md:text-xl lg:text-2xl text-[#2E3272]">Prateek Sethi</h3>
                 </div>
                     <p className="text-sm text-gray-600 md:text-base lg:text-lg font-causten-medium">Founder &amp; Creative Director - Trip Creative Services</p>
-                    <p className="mt-1 text-xs text-gray-500 md:text-sm lg:text-base text-[16px]  leading-[19.2px] sm:leading-[30px] md:leading-3 lg:leading-[21.6px] font-causten-light">Times 40 under 40, Animator, producer, TEDx speaker, ex-host of Pogo TV's 'FAQ,' and creator of 'Folktales of India'.</p>
+                    <p className="mt-1 text-xs text-gray-500 md:text-sm lg:text-base text-[16px]  leading-[19.2px] sm:leading-[30px] md:leading-3 lg:leading-[21.6px] font-causten-light">Times 40 under 40, Animator, producer, TEDx speaker, ex-host of Pogo TV&apos;s &apos;FAQ,&apos; and creator of &apos;Folktales of India&apos;.</p>
             </div>
         </div>
     )
